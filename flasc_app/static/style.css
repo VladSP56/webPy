@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2.6; /* Увеличиваем высоту строки для лучшей читаемости */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #AFEEEE;
+    color: #FF0000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Располагаем пункты меню в ряд */
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #0000CD;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px; /* Ограничиваем максимальную ширину контента */
+    margin: 20px auto; /* Центрируем блок по горизонтали */
+    padding: 20px; /* Внутренние отступы */
+    text-align: center; /* Центрирование текста*/
+    line-height: 1,6; /*Высота строк для лучшей читаемости*/
+
+}
+
+p {
+    font-size: 18px; /* Размер шрифта для параграфов */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #AFEEEE;
+    color: #FF0000;
+}
